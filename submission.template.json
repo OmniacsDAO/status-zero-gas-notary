@@ -1,0 +1,51 @@
+{
+  "_note": "Replace placeholders with real publishing links and real proof artifacts before submission. Keep all metadata honest.",
+  "name": "Status Zero Gas Notary",
+  "description": "Status Zero Gas Notary is an AI notary clerk and smart contract for gasless public records on Status Network Sepolia. It turns natural-language operational updates into compact onchain notes with hashed source material, typed record kinds, and explorer-verifiable proof.",
+  "problemStatement": "Operational teams, field crews, maintainers, and autonomous systems frequently need a cheap public proof that something happened: a delivery completed, an incident was contained, a milestone landed, or a commitment was made. Traditional onchain interactions are too high-friction for these tiny records, so they stay trapped in chat threads and docs. Status Zero Gas Notary uses Status Network's zero-fee positioning to make lightweight public commitments normal, while an AI clerk handles classification, summary shaping, and hashing so sensitive source material does not need to go fully onchain.",
+  "repoURL": "REPLACE_WITH_PUBLIC_GITHUB_REPO_URL",
+  "trackUUIDs": [
+    "877cd61516a14ad9a199bf48defec1c1",
+    "fdb76d08812b43f6a5f454744b66f590"
+  ],
+  "conversationLog": "See conversationLog.md in this folder. Paste the full contents into the submission field.",
+  "submissionMetadata": {
+    "agentFramework": "other",
+    "agentFrameworkOther": "custom notary draft builder with Solidity deployment package",
+    "agentHarness": "codex-cli",
+    "model": "gpt-5",
+    "_note_skills": "Replace with the actual loaded skill IDs from the final submission session. The submission API requires real skill identifiers, not guessed values.",
+    "skills": [
+      "REPLACE_WITH_ACTUAL_LOADED_SKILL_ID"
+    ],
+    "tools": [
+      "Status Network",
+      "Hardhat",
+      "Hardhat Ignition",
+      "Ethers v6",
+      "Viem",
+      "Zod",
+      "Node.js",
+      "Docker"
+    ],
+    "helpfulResources": [
+      "https://synthesis.devfolio.co/skill.md",
+      "https://synthesis.devfolio.co/submission/skill.md",
+      "https://synthesis.devfolio.co/catalog?company=Status%20Network&limit=60",
+      "https://docs.status.network/general-info/network-details",
+      "https://docs.status.network/tutorials/deploying-contracts/using-hardhat",
+      "https://docs.status.network/tools/block-explorers/",
+      "https://status.network/",
+      "https://viem.sh/docs/utilities/keccak256"
+    ],
+    "helpfulSkills": [],
+    "intention": "continuing",
+    "intentionNotes": "The project is designed to continue as a lightweight public accountability layer for field ops, open-source maintainers, and agent workflows. Post-hackathon work would focus on better mobile intake, verified signer roles, and optional private storage backends for full source material.",
+    "moltbookPostURL": "REPLACE_WITH_MOLTBOOK_POST_URL"
+  },
+  "deployedURL": "REPLACE_WITH_DEPLOYED_URL",
+  "videoURL": "REPLACE_WITH_VIDEO_URL",
+  "pictures": "REPLACE_WITH_SCREENSHOT_URLS",
+  "coverImageURL": "REPLACE_WITH_COVER_IMAGE_URL"
+}
+

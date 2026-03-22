@@ -1,0 +1,61 @@
+{
+  "$schema": "agent-manifest-v1",
+  "name": "Status Zero Gas Notary",
+  "description": "AI notary clerk and Status Sepolia contract for turning operational notes into gasless public records with hashed source material and compact public summaries.",
+  "version": "1.0.0",
+  "operator": {
+    "name": "Omniacs DAO",
+    "url": "https://omniacsdao.xyz",
+    "wallet": "0x_OPERATOR_WALLET_ADDRESS",
+    "_note_wallet": "Placeholder only. Replace with the actual operator wallet before submission."
+  },
+  "tracks": [
+    {
+      "uuid": "877cd61516a14ad9a199bf48defec1c1",
+      "name": "Go Gasless: Deploy & Transact on Status Network with Your AI Agent",
+      "priority": "primary"
+    },
+    {
+      "uuid": "fdb76d08812b43f6a5f454744b66f590",
+      "name": "Synthesis Open Track",
+      "priority": "secondary"
+    }
+  ],
+  "runtime": {
+    "framework": "custom AI clerk plus Solidity contract",
+    "language": [
+      "Node.js ESM",
+      "Solidity"
+    ],
+    "sdk": [
+      "viem",
+      "hardhat",
+      "ethers"
+    ],
+    "chains": [
+      "Status Network Sepolia"
+    ]
+  },
+  "capabilities": [
+    "note-classification",
+    "hash-based-public-records",
+    "gasless-notarization",
+    "qualifying-proof-packaging"
+  ],
+  "guardrails": {
+    "hashes-source-material_before_public_write": true,
+    "summary_length_bound": true,
+    "env_only_secrets": true,
+    "proof_templates_shipped": true
+  },
+  "deployment": {
+    "env_example_file": ".env.example",
+    "dockerfile": "Dockerfile",
+    "chain_subproject": "chain",
+    "proof_templates": [
+      "proofs/deployment-proof.template.json",
+      "proofs/gasless-tx-proof.template.json"
+    ]
+  }
+}
+

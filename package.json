@@ -1,0 +1,17 @@
+{
+  "name": "status-zero-gas-notary",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "AI notary clerk and gasless proof packaging for Status Network Sepolia",
+  "scripts": {
+    "demo": "node src/cli/demo.mjs examples/sample-intake.json",
+    "check": "node --check src/cli/demo.mjs && node --check src/agent/schema.mjs && node --check src/agent/model-client.mjs && node --check src/agent/heuristics.mjs && node --check src/agent/notary-agent.mjs && node --check src/agent/render.mjs"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "viem": "2.47.4",
+    "zod": "^3.24.2"
+  }
+}
+

@@ -1,0 +1,13 @@
+{
+  "_note": "Fill this with the real deployment proof before submission.",
+  "network": "Status Network Sepolia",
+  "chainId": 1660990954,
+  "contractName": "StatusZeroGasNotary",
+  "contractAddress": "REPLACE_WITH_DEPLOYED_CONTRACT_ADDRESS",
+  "deploymentTxHash": "REPLACE_WITH_DEPLOYMENT_TX_HASH",
+  "explorerUrl": "https://sepoliascan.status.network/tx/REPLACE_WITH_DEPLOYMENT_TX_HASH",
+  "sourceVerificationUrl": "REPLACE_WITH_CONTRACT_VERIFICATION_URL",
+  "deployerAddress": "REPLACE_WITH_DEPLOYER_ADDRESS",
+  "notes": "Confirm the explorer link resolves and the source code is verified if possible."
+}
+

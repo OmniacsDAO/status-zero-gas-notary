@@ -1,0 +1,29 @@
+{
+  "project": "Northstar Relief Ops",
+  "team": "Field Coordination",
+  "authorName": "Asha Patel",
+  "title": "Clinic generator installation completed",
+  "statement": "Crew 3 completed installation of the backup generator at the North Camp clinic. Acceptance photos were uploaded, the first fuel test passed, and the local coordinator signed off on the handover.",
+  "categoryHint": "delivery",
+  "audience": "public",
+  "parties": [
+    "Crew 3",
+    "North Camp Clinic",
+    "Local Coordinator"
+  ],
+  "tags": [
+    "health",
+    "field-ops",
+    "delivery"
+  ],
+  "evidenceLinks": [
+    "https://example.org/evidence/north-camp-generator"
+  ],
+  "sourceRefs": [
+    "ticket-447",
+    "photo-set-12"
+  ],
+  "happenedAt": "2026-03-16T10:30:00Z",
+  "uri": "https://example.org/notary/north-camp-generator"
+}
+

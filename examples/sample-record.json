@@ -1,0 +1,21 @@
+{
+  "network": "Status Network Sepolia",
+  "chainId": 1660990954,
+  "contractAddress": "0x000000000000000000000000000000000000BEEF",
+  "recordId": 1,
+  "txHash": "0x111122223333444455556666777788889999aaaabbbbccccddddeeeeffff0000",
+  "record": {
+    "author": "0x1111111111111111111111111111111111111111",
+    "kind": "delivery",
+    "contentHash": "0x8d1d965b1fd3101b849113dbf70018be65c90ec3c5f6720d74d4f508a27c3a75",
+    "contextHash": "0x70889f3759006d57f4a651b4d9407506b6ef57fcb7ab2f848a645f5da52d8c0d",
+    "summary": "Backup generator installation completed at North Camp clinic with local sign-off.",
+    "uri": "https://example.org/notary/north-camp-generator",
+    "createdAt": 1773657000
+  },
+  "proofNotes": [
+    "Replace sample addresses and tx hashes with live Status Sepolia values before submission.",
+    "Use the Status explorer link for the final qualifying proof."
+  ]
+}
+

@@ -1,0 +1,19 @@
+{
+  "_note": "Fill this with the actual qualifying transaction details before submission.",
+  "network": "Status Network Sepolia",
+  "chainId": 1660990954,
+  "contractAddress": "REPLACE_WITH_DEPLOYED_CONTRACT_ADDRESS",
+  "recordId": "REPLACE_WITH_RECORD_ID",
+  "txHash": "REPLACE_WITH_NOTARIZE_TX_HASH",
+  "explorerUrl": "https://sepoliascan.status.network/tx/REPLACE_WITH_NOTARIZE_TX_HASH",
+  "function": "notarize",
+  "observedGasPrice": "REPLACE_WITH_EXPLORER_VALUE",
+  "observedFee": "REPLACE_WITH_EXPLORER_VALUE",
+  "summary": "REPLACE_WITH_PUBLIC_SUMMARY_WRITTEN_ONCHAIN",
+  "submissionCheck": {
+    "smartContractDeployed": true,
+    "aiAgentPreparedPayload": true,
+    "qualifyingTxBroadcast": true
+  }
+}
+
